@@ -327,6 +327,7 @@ body {
         padding-right: 0px;
     }
     .glavnaya{
-        display: block;
+        justify-content: center;
+        text-align: center;
     }
 }

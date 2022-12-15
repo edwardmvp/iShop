@@ -8,42 +8,42 @@
 a{
     text-decoration: none;
 }
+
 header {
     background-color: #cccccc;
 }
 
-.header {
-    background-color: #cccccc;
-}
 .header_top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #cccccc;
     position: relative;
+    height: 80px;
 }
 
 .logo {
     padding-left: 10px;
+    transform: scale(1);
 }
-
-.buttons shopping_cart {
-    width: 25px;
-    padding-right: 10px;
+.logo:hover {
+    transition: 0.5s;
+    transform: scale(1.25);
 }
 
 .buttons {
-    display: flex;
-    column-gap: 29px;
     text-decoration: none;
     padding-right: 10px;
+    transform: scale(1);
 }
-
+.buttons:hover{
+    transform: scale(1.25);
+    transition: 0.5s;
+}
 .buttons a {
     font-size: 22px;
     color: white;
     font-weight: 400px;
-    text-decoration: none;
     align-items: flex-end;
 }
 
@@ -54,9 +54,7 @@ header {
     background-color: #808080;
     padding-top: 15px;
     padding-bottom: 15px;
-    position: static;
 }
-
 
 .second {
     display: flex;
@@ -71,7 +69,6 @@ header {
     font-weight: 400px;
     text-decoration: none;
     align-items: center;
-    font-style: italic;
     justify-content: space-between;
 }
 
@@ -91,12 +88,14 @@ header {
 .tovari{
     display:  flex;
     justify-content: space-around;
+    text-align: center;
+    align-items: baseline;
     padding-top: 50px;
 }
 
 .Air{
     text-align: center;
-    
+    padding-left: 25px;
 }
 .Air img{
     width: 450px;
@@ -112,9 +111,9 @@ header {
 .second_tovari{
     display:  flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    text-align: center;
+    align-items: baseline;
     padding-top: 50px;
-    padding-right: 50px;
 }
 
 .iMac{
@@ -128,7 +127,7 @@ header {
 
 .MPro{
     text-align: center;
-    padding-right: 45px;
+    padding-right: 90px;
 }
 
 .MPro img{
@@ -153,19 +152,26 @@ header {
 
 .MMini{
     text-align: center;
-    padding-right: 45px;
+    padding-right: 35px;
+    margin-top: 50px;
 }
 
 .MMini img{
     width: 450px;
 }
 
+
 .footer{
     background-color: #323131;
-    
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 50px;
 }
 
 @media(max-width: 1000px){
+    .header_bot a {
+        padding-right: 0px;
+    }
     .second_tovari{
         display:  flex;
         justify-content: space-around;
@@ -175,9 +181,12 @@ header {
     }
     .iMac{
         text-align: center;
+        padding-left: 25px;
     }
     .MPro{
         text-align: center;
+        padding-top: 50px;
+        padding-left: 90px;
     }
     .tovari{
         display:  flex;
@@ -195,5 +204,10 @@ header {
         text-align: center;
         padding-top: 20px;
         padding-right: 0;
+    }.Pro{
+        padding-top: 50px;
+    }
+    .Air{
+        padding-right: 25px;
     }
 }

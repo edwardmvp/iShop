@@ -293,5 +293,26 @@ header {
         padding-top: 30px;
         padding-right: 0;
     }
-    
+    .chetvertaya{
+        display: block;
+    }
+    .tovari{
+        display: block;
+        justify-content: center;
+    }
+    .tovari a{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .macbook img{
+        margin-left: 100px;
+    }
+    .mini img{
+        margin-left: 130px;
+    }
+    .iMac img{
+        margin-left: 150px;
+    }
+}
 }

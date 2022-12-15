@@ -307,13 +307,20 @@ header {
         align-items: center;
     }
     .macbook img{
-        margin-left: 100px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
     .mini img{
-        margin-left: 130px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
     .iMac img{
-        margin-left: 150px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
     }
 }
 }

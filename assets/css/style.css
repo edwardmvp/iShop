@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Comfortaa';
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: #cccccc;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+.header {
+    background-color: #cccccc;
+}
+
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #cccccc;
+    position: relative;
+    height: 80px;
+}
+
+.logo {
+    padding-left: 10px;
+    transform: scale(1);
+}
+.logo:hover {
+    transition: 0.5s;
+    transform: scale(1.25);
+}
+
+.buttons {
+    text-decoration: none;
+    padding-right: 10px;
+    transform: scale(1);
+}
+.buttons:hover{
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+.buttons a {
+    font-size: 22px;
+    color: white;
+    font-weight: 400px;
+    align-items: flex-end;
+}
+
+.header_bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #808080;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* .header_bot a {
+    padding-right: 70px;
+} */
+.iPhone_14 {
+    position: relative;
+    display: flex;
+    height: 50rem;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fbfbfd;
+    text-decoration: none;
+}
+.iPhone_14_textblock{
+    margin-top:50px;
+}
+.Phone_text1 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.Phone_1 a{
+    text-decoration: none;
+}
+
+.Phone_1 a:hover{
+    transition: 1s;
+    text-decoration: underline;
+}
+.Phone_pic{
+    position: absolute;
+    bottom: 0;
+}
+
+.Phone_text2 {
+    font-weight: 530;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.Phone_1 a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 55px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.iPhone_14Pro {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    flex-direction: column;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    height: 50rem;
+}
+.Phone_14Pro_textblock{
+    padding-top: 100px;
+}
+.PhonePro_pic{
+    position: absolute;
+    bottom: 0;
+}
+.PhonePro_text1 {
+    font-weight: 550;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.PhonePro_text2 {
+    font-weight: 530;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+.Phone_2 {
+    transition: 1s;
+}
+.Phone_2 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 90px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.Phone_2 a:hover {
+    text-decoration: underline;
+}
+.items2 {
+    display: flex;
+    background-color: #fbfbfd;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.AWatch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fbfbfd;
+    text-decoration: none;
+    color: black;
+}
+
+.AWatch_text1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 550;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+.AWatch2 a {
+    text-decoration: none;
+    color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+}
+.AWatch2 a:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+}
+.MBook {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fbfbfd;
+    text-decoration: none;
+    color: black;
+}
+.MBook1 a{
+    text-decoration: none;
+    color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+}
+.MBook1 a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+}
+.MBook_text1 {
+    font-weight: 550;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+.MBook a {
+    text-decoration: none;
+    color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+}
+
+
+.second {
+    display: flex;
+    column-gap: 29px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.second a {
+    font-size: 22px;
+    color: black;
+    font-weight: 400px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 50px;
+
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 25px;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-style: italic;
+    font-size: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Comfortaa', cursive;
+}
+.main .pt1{
+    margin-bottom: 15px;
+}
+.main .pt2{
+    margin-bottom: 15px;
+}
+.main .pt3{
+    margin-bottom: 15px;
+}
+.main:last-child{
+    margin-bottom: 0;
+}
+.text1 img {
+    width: 25px;
+}
+
+.text2 img {
+    width: 25px;
+}
+
+.text3 img {
+    width: 25px;
+}
+
+.text4 img {
+    width: 25px;
+}
+
+
+/*
+
+Slider :)
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.ending {
+    border-top: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+*/
+@media(max-width: 1000px){
+    .header_bot a {
+        padding-right: 0px;
+    }
+}

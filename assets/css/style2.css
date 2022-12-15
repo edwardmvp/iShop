@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Comfortaa', cursive;
+    
+}
+a{
+    text-decoration: none;
+}
+header {
+    background-color: #cccccc;
+}
+
+.header {
+    background-color: #cccccc;
+}
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #cccccc;
+    position: relative;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+.buttons shopping_cart {
+    width: 25px;
+    padding-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 29px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.buttons a {
+    font-size: 22px;
+    color: white;
+    font-weight: 400px;
+    text-decoration: none;
+    align-items: flex-end;
+}
+
+.header_bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #808080;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: static;
+}
+
+
+.second {
+    display: flex;
+    column-gap: 29px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.second a {
+    font-size: 22px;
+    color: black;
+    font-weight: 400px;
+    text-decoration: none;
+    align-items: center;
+    font-style: italic;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 50px;
+
+}
+
+.first_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 36px;
+}
+
+.tovari{
+    display:  flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.Air{
+    text-align: center;
+    
+}
+.Air img{
+    width: 450px;
+}
+
+.Pro{
+    text-align: center;
+}
+.Pro img{
+    width: 450px;
+}
+
+.second_tovari{
+    display:  flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.iMac{
+    text-align: center;
+    padding-right: 25px;
+}
+
+.iMac img{
+    width: 450px;
+}
+
+.MPro{
+    text-align: center;
+    padding-right: 45px;
+}
+
+.MPro img{
+    width: 190px;
+}
+.third_tovari{
+    display:  flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.Studio{
+    text-align: center;
+    padding-left: 50px;
+}
+
+.Studio img{
+    width: 450px;
+}
+
+.MMini{
+    text-align: center;
+    padding-right: 45px;
+}
+
+.MMini img{
+    width: 450px;
+}
+
+.footer{
+    background-color: #323131;
+    
+}
+
+@media(max-width: 1000px){
+    .second_tovari{
+        display:  flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    .iMac{
+        text-align: center;
+    }
+    .MPro{
+        text-align: center;
+    }
+    .tovari{
+        display:  flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    .Studio{
+        text-align: center;
+    
+        padding-left: 8px;
+    }
+    .MMini{
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 0;
+    }
+}
